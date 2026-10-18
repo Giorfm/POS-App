@@ -1,0 +1,8 @@
+# Agent Rules (Pos System)
+
+1. Zero external friction: App runs directly with `npm install && npm run dev` in Demo Mode.
+2. Complete functional implementation: No dummy alerts, no TODOs, no empty stubs.
+3. Financial computations: Integer Rupiah only, strictly tested with Vitest.
+4. UI Language: Bahasa Indonesia for user-facing copy. Code and comments: English.
+5. All sensitive manager actions (void, refund, excessive discount, price overrides) require Manager PIN modal authorization.
+6. Responsive & Ergonomic: 60/40 landscape layout on desktop/tablet, touch target >= 48px, keyboard shortcuts enabled.
