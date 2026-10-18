@@ -65,7 +65,7 @@ async function loadClientReferenceManifest(manifestPath, entryName, attempts) {
 `.trim();
 
 content = content.replace(
-  /async function loadClientReferenceManifest\(manifestPath, entryName, attempts\) {[\s\S]*?return context\.__RSC_MANIFEST\[entryName\];[\s\S]*?}/,
+  /async function loadClientReferenceManifest\(manifestPath, entryName, attempts\) {[\s\S]*?catch\s*\(\w+\)\s*{[\s\S]*?}\s*}/,
   helperAndReplacement
 );
 
