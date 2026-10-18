@@ -1,9 +1,0 @@
-{
-  "/(pos)/pos/customer-display/page": "app/(pos)/pos/customer-display/page.js",
-  "/(pos)/pos/kds/page": "app/(pos)/pos/kds/page.js",
-  "/(pos)/pos/page": "app/(pos)/pos/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
-  "/(dashboard)/dashboard/products/page": "app/(dashboard)/dashboard/products/page.js",
-  "/(dashboard)/dashboard/inventory/page": "app/(dashboard)/dashboard/inventory/page.js",
-  "/(dashboard)/dashboard/settings/page": "app/(dashboard)/dashboard/settings/page.js"
-}
